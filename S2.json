@@ -30,7 +30,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/live.syncpilot.com\/assets\/workadventure\/s2_kitchen.jpg"
+                 "value":"https:\/\/westeurope1-mediap.svc.ms\/transform\/thumbnail?provider=spo&inputFormat=jpg&cs=fFNQTw&docid=https%3A%2F%2Fsyncpilot-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!WB0EySUu5UauO7Apo5Kmhsti_pyyQeRAmVkndU1eKcBxOhDV91NBQbJRSo9-55_m%2Fitems%2F015IV2IVU2LJIYZA65NNEISZYBSW7PIL4O%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvc3luY3BpbG90LW15LnNoYXJlcG9pbnQuY29tQDY3Mjk4NDg2LWY3NzktNDRlNi1iYmRlLTAyNjQ5YzNhMDY0MiIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE2MjA3MzQ0MDAiLCJleHAiOiIxNjIwNzU2MDAwIiwiZW5kcG9pbnR1cmwiOiJhVDBkcTRsRzBzVmpLczY1K2RwZUlXRFhFdzV4enFsdndiU0FjSm50T0JNPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE5IiwiaXNsb29wYmFjayI6IlRydWUiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWXprd05ERmtOVGd0TW1VeU5TMDBObVUxTFdGbE0ySXRZakF5T1dFek9USmhOamcyIiwic2lnbmluX3N0YXRlIjoiW1wia21zaVwiXSIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxzYXNjaGEuc3RlZ211ZWxsZXJAYWQuc3luY3BpbG90LmNvbSIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDM3ZmZlYTcwYzNjNzNAbGl2ZS5jb20iLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMyJ9.MzlVZEk1ZVFoSjBjdDBDaytERTdqVEk3dC9oRW53aFREaFJkZUZmNmx4az0&encodeFailures=1&width=3441&height=1104&srcWidth=&srcHeight="
                 }, 
                 {
                  "name":"openWebsiteTrigger",
