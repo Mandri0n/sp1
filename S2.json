@@ -86,7 +86,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/dev.syncpilot.com\/wa_embed\/index.html"
+                 "value":"https:\/\/dev.syncpilot.com\/wa_embed\/me.jpg"
                 }, 
                 {
                  "name":"openWebsiteTrigger",
