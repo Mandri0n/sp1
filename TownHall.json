@@ -2744,8 +2744,17 @@
          "transparentcolor":"#ff80ff"
         }, 
         {
+         "columns":10,
          "firstgid":14343,
-         "source":"src\/grass.tsx"
+         "image":"src\/grass.png",
+         "imageheight":224,
+         "imagewidth":320,
+         "margin":0,
+         "name":"grass",
+         "spacing":0,
+         "tilecount":70,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
