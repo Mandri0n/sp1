@@ -1,0 +1,1 @@
+deploy all folders on proxy.dev.livecontract.de in folder `/var/www/html/`
