@@ -1,0 +1,14 @@
+<html>
+    <body>
+	<img id="picture" style="width: 100%; height: auto;" />
+        <script>
+            const params = new URLSearchParams(window.location.search);
+            if(params.has("img")) {
+                const pUrl = params.get("img");
+                // console.log(pUrl);
+                document.getElementById("picture").src = pUrl;
+            }
+        </script>
+    </body>
+</html>
+
