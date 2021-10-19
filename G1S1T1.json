@@ -31,6 +31,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/syncoffice.livecontract.de\/join\/syncportal.html"
+                }, 
+                {
+                 "name":"openWebsiteAllowApi",
+                 "type":"bool",
+                 "value":true
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -239,7 +244,7 @@
  "nextobjectid":6,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.6.0",
+ "tiledversion":"1.7.2",
  "tileheight":32,
  "tilesets":[
         {
