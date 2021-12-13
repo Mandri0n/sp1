@@ -8,12 +8,6 @@
          "id":163,
          "name":"entry-from-townhall",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"startLayer",
-                 "type":"bool",
-                 "value":true
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":55,
@@ -44,12 +38,6 @@
          "id":169,
          "name":"entry-from-messe",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"startLayer",
-                 "type":"bool",
-                 "value":true
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":55,
@@ -80,12 +68,6 @@
          "id":168,
          "name":"entry-from-arcade",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"startLayer",
-                 "type":"bool",
-                 "value":true
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":55,
@@ -116,12 +98,6 @@
          "id":170,
          "name":"entry-from-lounge",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"start",
-                 "type":"string",
-                 "value":"westen"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":55,
