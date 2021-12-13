@@ -24,7 +24,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/syncpilot\/flurtreff\/lobby#westen"
+                 "value":"https:\/\/play.workadventu.re\/@\/syncpilot\/flurtreff\/Lobby#westen"
                 }],
          "type":"tilelayer",
          "visible":true,
