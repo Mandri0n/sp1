@@ -3620,19 +3620,6 @@
         {
          "columns":10,
          "firstgid":14741,
-         "image":"src\/museums.png",
-         "imageheight":748,
-         "imagewidth":327,
-         "margin":0,
-         "name":"museums",
-         "spacing":0,
-         "tilecount":0,
-         "tileheight":32,
-         "tilewidth":32
-        }, 
-        {
-         "columns":10,
-         "firstgid":14741,
          "image":"src\/words.png",
          "imageheight":748,
          "imagewidth":327,
