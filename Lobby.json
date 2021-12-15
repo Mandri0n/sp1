@@ -20,6 +20,12 @@
          "id":170,
          "name":"exit-north",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"https:\/\/play.workadventu.re\/@\/syncpilot\/flurtreff\/arcade#south"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":55,
@@ -50,6 +56,12 @@
          "id":172,
          "name":"exit-south",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"https:\/\/play.workadventu.re\/@\/syncpilot\/flurtreff\/messe#lobbytomesse"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":55,
