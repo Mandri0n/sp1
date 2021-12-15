@@ -65,7 +65,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/www.youtube.com\/embed\/live_stream?channel=UCzx-kfAsbsfOKlVbrz7xiRA"
+                 "value":"https:\/\/syncoffice.livecontract.de\/join\/weihnachtsfeier_stream.html"
                 }, 
                 {
                  "name":"openWebsitePolicy",
@@ -622,7 +622,7 @@
  "nextobjectid":6,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.6.0",
+ "tiledversion":"1.7.2",
  "tileheight":32,
  "tilesets":[
         {
