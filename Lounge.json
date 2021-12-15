@@ -77,7 +77,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"lounge_bar"
+                 "value":"lounge_barea"
                 }],
          "type":"tilelayer",
          "visible":true,
