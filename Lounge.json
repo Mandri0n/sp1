@@ -9,7 +9,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -27,7 +27,7 @@
                  "value":"https:\/\/play.workadventu.re\/@\/syncpilot\/flurtreff\/lobby#west"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -50,7 +50,7 @@
                  "value":"https:\/\/syncoffice.livecontract.de\/mp3\/Carol_Piano_Collection.mp3"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -62,7 +62,7 @@
          "name":"no entry",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -253,7 +253,7 @@
          "name":"Jitsi",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -337,7 +337,7 @@
          "name":"Boden",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -413,7 +413,7 @@
          "name":"Bar",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -424,7 +424,7 @@
          "name":"Hauptwand",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -507,7 +507,7 @@
          "name":"Stockwerk",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -577,7 +577,7 @@
          "name":"WC",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -656,7 +656,7 @@
          "height":100,
          "id":249,
          "name":"vip1_doorstep_pin",
-         "opacity":1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"autoClose",
@@ -694,7 +694,7 @@
          "height":100,
          "id":250,
          "name":"vip1_doorstep_exit",
-         "opacity":1,
+         "opacity":0,
          "properties":[
                 {
                  "name":"autoClose",
@@ -741,7 +741,7 @@
          "name":"vip1_door_closed",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -800,7 +800,7 @@
          "name":"Stockwerk interior",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -811,7 +811,7 @@
          "name":"WORDS",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -823,7 +823,7 @@
          "name":"Erde",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -835,7 +835,7 @@
          "name":"Teppich",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -847,7 +847,7 @@
          "name":"Tische Interior",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -859,7 +859,7 @@
          "name":"Interior",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -871,7 +871,7 @@
          "name":"Tische",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -883,7 +883,7 @@
          "name":"Details",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -895,7 +895,7 @@
          "name":"Fence Hinten",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -907,7 +907,7 @@
          "name":"Words",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -968,7 +968,7 @@
          "name":"Kopie von VIP W\u00e4nde",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -980,7 +980,7 @@
          "name":"Kopie von WC w\u00e4nde",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -992,7 +992,7 @@
          "name":"W\u00e4nde vorne",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -1004,7 +1004,7 @@
          "name":"Fence Vorne",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -1016,7 +1016,7 @@
          "name":"Kopie von Glas",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -1028,7 +1028,7 @@
          "name":"Kopie von Wand obere Teile",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -1040,7 +1040,7 @@
          "name":"INterior vorne",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
