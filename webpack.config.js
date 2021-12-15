@@ -8,7 +8,7 @@ module.exports = {
     devtool: 'inline-source-map',
     devServer: {
         contentBase: '.',
-        //host: '0.0.0.0',
+        // host: '0.0.0.0',
         host: 'localhost',
         //sockPort: 80,
         disableHostCheck: true,
