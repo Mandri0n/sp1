@@ -405,7 +405,7 @@
                  "height":100,
                  "id":254,
                  "name":"bar_guy",
-                 "opacity":1,
+                 "opacity":0,
                  "properties":[
                         {
                          "name":"collides",
@@ -430,7 +430,7 @@
          "height":100,
          "id":255,
          "name":"lounge_bar_guy_action",
-         "opacity":1,
+         "opacity":0,
          "type":"tilelayer",
          "visible":true,
          "width":75,
@@ -442,7 +442,7 @@
          "height":100,
          "id":256,
          "name":"lounge_bar_welcome_action",
-         "opacity":1,
+         "opacity":0,
          "type":"tilelayer",
          "visible":true,
          "width":75,
@@ -1121,6 +1121,16 @@
  "nextobjectid":9,
  "orientation":"orthogonal",
  "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"SYNCPILOT GmbH - 2021"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"Credits gehen an das gesamte SYNCSPACE team:\n\nThomas Valentin\nSascha Stegm\u00fcller\nIpek Moosheimer\nRebecca Otte\nJean-Yves Meyer\nBenjamin Kirchmayr\n"
+        }, 
         {
          "name":"script",
          "type":"string",

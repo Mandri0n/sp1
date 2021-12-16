@@ -1054,8 +1054,19 @@
  "nextlayerid":207,
  "nextobjectid":6,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"SYNCPILOT GmbH - 2021"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"Credits gehen an das gesamte SYNCSPACE team:\n\nThomas Valentin\nSascha Stegm\u00fcller\nIpek Moosheimer\nRebecca Otte\nJean-Yves Meyer\nBenjamin Kirchmayr\n"
+        }],
  "renderorder":"right-down",
- "tiledversion":"1.6.0",
+ "tiledversion":"1.7.2",
  "tileheight":32,
  "tilesets":[
         {
