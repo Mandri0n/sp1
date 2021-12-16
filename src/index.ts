@@ -5,19 +5,23 @@ import {bootstrapExtra} from "@workadventure/scripting-api-extra";
 // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure.
 bootstrapExtra().catch(e => console.error(e));
 
-let currentPopup: any = undefined;
-const today = new Date();
-const time = today.getHours() + ":" + today.getMinutes();
+let vip1CodePopup : any;
+const vip1CodePopupLayer = 'lounge_bar_guy_action';
 
-WA.room.onEnterZone('clock', () => {
-    currentPopup =  WA.ui.openPopup("clockPopup","It's " + time,[]);
+
+// Open the popup when we enter a given zone
+WA.room.onEnterLayer(vip1CodePopupLayer).subscribe(() => {
+    vip1CodePopup =WA.ui.openPopup("vip_code_popup", 'VIPs zählen von 1 bis 5', [{
+        label: "Ok",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }]);
+});
+
+// Close the popup when we leave the zone.
+WA.room.onLeaveLayer(vip1CodePopupLayer).subscribe(() => {
+    vip1CodePopup?.close();
 })
-
-WA.room.onLeaveZone('clock', closePopUp)
-
-function closePopUp(){
-    if (currentPopup !== undefined) {
-        currentPopup.close();
-        currentPopup = undefined;
-    }
-}
