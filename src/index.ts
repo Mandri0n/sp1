@@ -25,3 +25,25 @@ WA.room.onEnterLayer(vip1CodePopupLayer).subscribe(() => {
 WA.room.onLeaveLayer(vip1CodePopupLayer).subscribe(() => {
     vip1CodePopup?.close();
 })
+
+
+let welcomePopup : any;
+const welcomePopupLayer = 'lounge_bar_welcome_action';
+
+
+// Open the popup when we enter a given zone
+WA.room.onEnterLayer(welcomePopupLayer).subscribe(() => {
+    welcomePopup =WA.ui.openPopup("welcome_popup", 'Willkommen in der Lounge. Wir haben Erohlung, VIP-Räume und Toiletten. Ich wünsche eine angenehme Zeit.', [{
+        label: "Ok",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }]);
+});
+
+// Close the popup when we leave the zone.
+WA.room.onLeaveLayer(welcomePopupLayer).subscribe(() => {
+    welcomePopup?.close();
+})
