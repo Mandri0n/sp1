@@ -467,7 +467,7 @@
          "name":"Kachelebene 38",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -479,7 +479,7 @@
          "name":"Dancer place",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -492,14 +492,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"jitsiRoom",
                  "type":"string",
-                 "value":""
-                }, 
-                {
-                 "name":"openWebsitePolicy",
-                 "type":"string",
-                 "value":""
+                 "value":"arcade_disco_yay"
                 }, 
                 {
                  "name":"silent",
@@ -519,7 +514,7 @@
          "name":"DJ",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -537,7 +532,7 @@
                  "value":"sp_arcade_ufo"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -555,7 +550,7 @@
                  "value":"sp_arcade_billiard"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -573,7 +568,7 @@
                  "value":"sp_arcade_tt1"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -585,7 +580,7 @@
          "name":"Wand u",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -597,7 +592,7 @@
          "name":"Teppich",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -609,7 +604,7 @@
          "name":"Interior Details h",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -621,7 +616,7 @@
          "name":"Interior",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -633,7 +628,7 @@
          "name":"Interior Details",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -645,7 +640,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -656,7 +651,7 @@
          "name":"Exterior",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -668,7 +663,7 @@
          "name":"Wand o",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -680,7 +675,7 @@
          "name":"Interior auf obere wand details",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -692,7 +687,7 @@
          "name":"W\u00e4nde details",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -704,7 +699,7 @@
          "name":"Glas",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -716,7 +711,7 @@
          "name":"glas obere Teile",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -734,7 +729,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -742,8 +737,19 @@
  "nextlayerid":226,
  "nextobjectid":6,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"SYNCPILOT GmbH - 2021"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"Credits gehen an das gesamte SYNCSPACE team:\n\nThomas Valentin\nSascha Stegm\u00fcller\nIpek Moosheimer\nRebecca Otte\nJean-Yves Meyer\nBenjamin Kirchmayr\n"
+        }],
  "renderorder":"right-down",
- "tiledversion":"1.6.0",
+ "tiledversion":"1.7.2",
  "tileheight":32,
  "tilesets":[
         {

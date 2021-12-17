@@ -40,6 +40,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"jitsiConfig",
+                 "type":"string",
+                 "value":"{ \ntoolbarButtons: [ 'select-background' ]\n}"
+                }, 
+                {
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"sp_xmas"
@@ -71,6 +76,11 @@
                  "name":"openWebsitePolicy",
                  "type":"string",
                  "value":"openWebsitePolicy: fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                }, 
+                {
+                 "name":"openWebsiteWidth",
+                 "type":"int",
+                 "value":60
                 }, 
                 {
                  "name":"silent",
@@ -649,8 +659,19 @@
  "nextlayerid":149,
  "nextobjectid":6,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"SYNCPILOT GmbH - 2021"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"Credits gehen an das gesamte SYNCSPACE team:\n\nThomas Valentin\nSascha Stegm\u00fcller\nIpek Moosheimer\nRebecca Otte\nJean-Yves Meyer\nBenjamin Kirchmayr\n"
+        }],
  "renderorder":"right-down",
- "tiledversion":"1.6.0",
+ "tiledversion":"1.7.2",
  "tileheight":32,
  "tilesets":[
         {
